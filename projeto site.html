@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<title>VooArarazul</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
+.myLink {display: none}
+</style>
+<body class="w3-light-grey">
+
+<!-- Navigation Bar -->
+<div class="w3-bar w3-white w3-border-bottom w3-xlarge">
+  <a href="projeto site.html" class="w3-bar-item w3-button w3-text-light-blue w3-hover-light-blue"><b><i ></i>VooArarazul</b></a>
+  <a href="Cadastro.html" class="w3-bar-item w3-button w3-right w3--blue w3-text-grey"><i class="fa fa-map-marker"></i></a>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-hide-small" style="max-width:1500px">
+  <img class="w3-image" src="https://ambientalistasemrede.files.wordpress.com/2012/06/screen-shot-2009-11-23-at-10-13-04-am1.png"  width="1500" height="700">
+  <div class="w3-display-middle" style="width:65%">
+    <div class="w3-bar w3-black">
+      <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Flight');"><i class="fa fa-plane w3-margin-right"></i>Voo</button>
+      <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Hotel');"><i class="fa fa-bed w3-margin-right"></i>Hotel</button>
+      <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Pacote');"><i class="fa fa-car w3-margin-right"></i>Pacote</button>   
+    </div>
+
+    <!-- Tabs -->
+    <div id="Flight" class="w3-container w3-white w3-padding-16 myLink">
+      <h3>Viagem o mundo conosco!</h3>
+      <p>Usufrua de nosso sistema de agendamentos.</p>
+      <p>Preços justos com o conforto de viajar ao redor do mundo.</p>
+      <a href="teste.html"><p><button class="w3-button w3-light-blue">Encontre todas as datas.</button></p></a>
+    </div>
+
+    <div id="Hotel" class="w3-container w3-white w3-padding-16 myLink">
+      <h3>Encontre os melhores hoteis!</h3>
+      <p>Reserve um hotel conosco e garanta as melhores ofertas e promoções.</p>
+      <p>Nós prezamos por conforto e preços justos.</p>
+      <a href="Hotel.html"><p><button class="w3-button w3-light-blue">Procurar Hotel</button></p></a>
+    </div>
+    <div id="Pacote" class="w3-container w3-white w3-padding-16 myLink">
+      <h3>Melhores promoções de pacote do mundo!</h3>
+      <p><span class="w3-tag w3-light-blue">DESCONTO!</span> OFertas especiais para viagem e hospedaria em até 50% de desconto</p>      
+      <p><a href="teste2.html"><button class="w3-button w3-light-blue">Procure agora</button></p></a>
+    </div>
+
+   </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:1100px;">
+
+  <!-- Good offers -->
+  <div class="w3-container w3-margin-top">
+    <h3>Pacotes!</h3>
+    <h6>Descontos de <strong>50% </strong>em sua viagem.</h6>
+  </div>
+  <div class="w3-row-padding w3-text-white w3-large">
+    <div class="w3-half w3-margin-bottom">
+      <div class="w3-display-container">
+        <img src="https://guardemais.com.br/wp-content/uploads/2018/11/rio-de-janeiro-cristo-redentor.jpg" style="width:100%">
+        <span class="w3-display-bottomleft w3-padding">Rio de Janeiro</span>
+      </div>
+    </div>
+    <div class="w3-half">
+      <div class="w3-row-padding" style="margin:0 -16px">
+        <div class="w3-half w3-margin-bottom">
+          <div class="w3-display-container">
+            <img src="https://blogs.sapo.pt/cloud/thumb/0fbcec80426f8ffbc7f7531d3987a321/ele/2018/New-York-1.jpg?size=xl" style="width:100%">
+            <span class="w3-display-bottomleft w3-padding">Nova Iorque</span>
+          </div>
+        </div>
+        <div class="w3-half w3-margin-bottom">
+          <div class="w3-display-container">
+            <img src="https://images.wallpaperscraft.com/image/tokyo_japan_city_night_lights_63139_1920x1080.jpg" style="width:100%">
+            <span class="w3-display-bottomleft w3-padding">Tokyo</span>
+          </div>
+        </div>
+      </div>
+      <div class="w3-row-padding" style="margin:0 -16px">
+        <div class="w3-half w3-margin-bottom">
+          <div class="w3-display-container">
+            <img src="https://images.adsttc.com/media/images/5a05/dbe9/b22e/38c7/1f00/05f4/newsletter/Hong_Kong_%C2%A9_Khush_N_CC_BY-NC-ND_2.0.jpg?1510333413"  style="width:100%">
+            <span class="w3-display-bottomleft w3-padding">Hong Kong</span>
+          </div>
+        </div>
+        <div class="w3-half w3-margin-bottom">
+          <div class="w3-display-container">
+            <img src="http://www.fundospaisagens.com/1920x1080/paris-ao-por-do-sol.jpg" style="width:100%">
+            <span class="w3-display-bottomleft w3-padding">Paris</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Explore Nature -->
+  <div class="w3-container">
+    <h3>Explore a natureza.</h3>
+    <p>Viage conosco e aproveite da paisagem.</p>
+  </div>
+  <div class="w3-row-padding">
+    <div class="w3-half w3-margin-bottom">
+      <img src="http://www.osmais.com/wallpapers/201112/rio-dos-alpes-wallpaper.jpg" style="width:100%">
+      <div class="w3-container w3-white">
+        <h3>Noruega</h3>
+        
+        <button class="w3-button w3-margin-bottom">Compre sua passagem</button>
+      </div>
+    </div>
+    <div class="w3-half w3-margin-bottom">
+      <img src="https://i.pinimg.com/originals/16/d2/5a/16d25a62537826978ef9c39d51a29f5d.jpg" style="width:100%">
+      <div class="w3-container w3-white">
+        <h3>Austria</h3>
+
+        <button class="w3-button w3-margin-bottom">Compre sua passagem</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Newsletter -->
+  <div class="w3-container">
+    <div class="w3-panel w3-padding-16 w3-black w3-opacity w3-card w3--opacity-off">
+      <h2>Garanta primeiro as melhores ofertas!</h2>
+      <p>Assine nossa pagina de noticias.</p>
+      <label>E-mail</label>
+      <input class="w3-input w3-border" type="text" placeholder="Seu endereço de E-mail">
+      <button type="button" class="w3-button w3-light-blue w3-margin-top">Inscreva-se</button>
+    </div>
+  </div>
+  
+  <!-- Contact -->
+  <div class="w3-container">
+    <h2>Contato</h2>
+    <p>Deixe-nos cuidar de sua proxima viagem!</p>
+    <i class="fa fa-map-marker" style="width:30px"></i> 27<br>
+    <i class="fa fa-phone" style="width:30px"></i> Telefone: (XX) XX XXXXXXXX<br>
+    <i class="fa fa-envelope" style="width:30px"> </i> Email: ArarAzul@mail.com<br>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Nome" required name="Nome"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Mensagem" required name="Mensagem"></p>
+      <p><button class="w3-button w3-black w3-padding-large" type="submit">Enviar Mensagem</button></p>
+    </form>
+  </div>
+  
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-center w3-opacity w3-margin-bottom">
+  <h5>Fale conosco em</h5>
+  <div class="w3-xlarge w3-padding-16">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+<script>
+// Tabs
+function openLink(evt, linkName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("myLink");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-light-blue", "");
+  }
+  document.getElementById(linkName).style.display = "block";
+  evt.currentTarget.className += " w3-light-blue";
+}
+
+// Click on the first tablink on load
+document.getElementsByClassName("tablink")[0].click();
+</script>
+
+</body>
+</html>
